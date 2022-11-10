@@ -154,8 +154,12 @@ CREATE TABLE `transacoes` (
   `DATA` datetime DEFAULT NULL,
   `VALOR` float DEFAULT NULL,
   `STATUS` varchar(10) NOT NULL DEFAULT 'ANALISE',
+  `DE` varchar(255) default null,
+  `PARA` varchar(255) default null,
   PRIMARY KEY (`ID_TRANSACAO`),
-  KEY `ID_CONTA` (`ID_CONTA`)
+  KEY `ID_CONTA` (`ID_CONTA`),
+  KEY `DE` (`DE`),
+  KEY `PARA` (`PARA`)
 ) ENGINE=MyISAM AUTO_INCREMENT=51 DEFAULT CHARSET=utf8mb3;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
