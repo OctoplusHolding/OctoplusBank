@@ -699,7 +699,7 @@ class realizarTransferenciaController(MethodView):
                 cliente = cur.fetchone()
                 cur.execute("SELECT * FROM conta WHERE ID_CONTA =%s",(id))
                 conta = cur.fetchone()
-                mensagem = "O transferencia não pode ser realizada, Favor Entrar em contato com o Gerente"
+                mensagem = "Transferência não pode ser realizada, favor entrar em contato com o Gerente"
 
             return render_template('public/transferencia.html',cliente=cliente, conta=conta, mensagem=mensagem )
             
@@ -710,10 +710,12 @@ class realizarTransferenciaController(MethodView):
                 cliente = cur.fetchone()
                 cur.execute("SELECT * FROM conta WHERE ID_CONTA =%s",(id))
                 conta = cur.fetchone()
+                cur.execute("SELECT * FROM cliente WHERE ID_CONTA =%s ",(para))
+                destino = cur.fetchone()
                 saldofinal = ((transferencia * -1)+(conta[4]))
                 cur.execute("UPDATE conta SET saldo =%s WHERE  ID_CONTA =%s",((saldofinal),id))
                 cur.connection.commit()
-                cur.execute("INSERT INTO transacoes (ID_CONTA,TIPO,DATA,VALOR,STATUS) VALUES (%s,'TRANSF.',NOW(),%s,'APROVADO')",(conta[1],transferencia  * -1))
+                cur.execute("INSERT INTO transacoes (ID_CONTA,TIPO,DATA,VALOR,STATUS, DE, PARA) VALUES (%s,'TRANSF.',NOW(),%s,'APROVADO', %s, %s)",(conta[1],transferencia  * -1, cliente[2], destino[2]))
                 cur.connection.commit()
 
                 cur.execute("SELECT * FROM conta WHERE ID_CONTA =%s and ID_AGENCIA=%s",(para,agencia))
@@ -721,7 +723,7 @@ class realizarTransferenciaController(MethodView):
                 saldofinal = (transferencia + conta[4])
                 cur.execute("UPDATE conta SET saldo =%s WHERE  ID_CONTA =%s AND ID_AGENCIA=%s",(saldofinal, para,agencia))
                 cur.connection.commit()
-                cur.execute("INSERT INTO transacoes (ID_CONTA,TIPO,DATA,VALOR,STATUS) VALUES (%s,'TRANSF.',NOW(),%s,'APROVADO')",(para, transferencia))
+                cur.execute("INSERT INTO transacoes (ID_CONTA,TIPO,DATA,VALOR,STATUS, DE, PARA) VALUES (%s,'TRANSF.',NOW(),%s,'APROVADO', %s, %s)",(para, transferencia, cliente[2], destino[2]))
                 cur.connection.commit()
 
                 cur.execute("SELECT * FROM cliente WHERE ID_CONTA =%s",(id))

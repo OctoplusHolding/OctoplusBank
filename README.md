@@ -50,7 +50,7 @@ _Projeto de um banco fictício, representado pelo Profº Fabrício Galende Marqu
 ## 💻 Tecnologias Utilizadas <a id="tecnologias"></a>
 <br>
 
-![tecnologias2](https://user-images.githubusercontent.com/111464795/194776961-39b5dccd-586a-406e-ba5a-bc967a1fc391.png)
+![tecnologias3ASPRINT](https://user-images.githubusercontent.com/111464795/200388764-10711847-228a-467a-a6cf-f1e6fc971066.png)
 
 <br>
 <hr>
@@ -128,6 +128,11 @@ _Projeto de um banco fictício, representado pelo Profº Fabrício Galende Marqu
 <br>
 <hr>
 
+<h3> Sprint 03 </h3>
+
+<img src="./src/static/images/3a_sprint_GG_GA_transferencia.gif" alt="gif 3a sprint">
+<br>
+<hr>
 ## 🗂️ Backlog das Sprints <a id="backlogs"></a>
 <br>
 
@@ -157,6 +162,8 @@ _Projeto de um banco fictício, representado pelo Profº Fabrício Galende Marqu
 
 <h3> Sprint 3: [17/10/22-06/11/22]</h3> 
 
+![burndown3](https://user-images.githubusercontent.com/111464795/200386558-965e69de-eaf0-46a0-8598-450adff7aaeb.png)
+
 <br>
 <br>
 
@@ -175,5 +182,4 @@ _Projeto de um banco fictício, representado pelo Profº Fabrício Galende Marqu
 | Thiago Zani         | Product Owner | <a href="https://github.com/zani19"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/thiago-zani-1b8503249"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                |
 | Gabriela Barbosa       | Desenvolvedora | <a href="https://github.com/gabidsbarbosa"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>     | <a href="https://www.linkedin.com/in/gabriela-barbosa-51a095195"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                              |
 | Igor Sasaki          | Desenvolvedor | <a href="https://github.com/IgorKenzoMS"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>   | <a href="https://www.linkedin.com/in/igor-kenzo-miyazaki-sasaki-4782b5249"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                      |
-| Jean Faria       | Desenvolvedor | <a href="https://github.com/jeejinf"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/jean-faria-5a4b201b9/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| Lucas Romero          | Desenvolvedor | <a href="https://github.com/LucasRomero2003"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>       | <a href="https://www.linkedin.com/in/lucas-romero-8b1b32240/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                          |
+| Jean Faria       | Desenvolvedor | <a href="https://github.com/jeejinf"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/jean-faria-5a4b201b9/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> 
