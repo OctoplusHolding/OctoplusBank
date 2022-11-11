@@ -879,7 +879,7 @@ class CadastroGerenteAgencia(MethodView):
         numeroCasa = request.form['numeroCasa']
         senha = request.form['senha']
         nome = nome.upper()
-        p
+        p='Mudança Notebook'
         
         
         with mysql.cursor()as cur:
