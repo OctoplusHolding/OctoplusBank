@@ -24,7 +24,7 @@
 <hr>
 
 ## Aprendizagem por Projetos Integrados <a id="API"></a>
-A API (Aprendizagem por Projetos Integrados), desenvolvida no escopo do CADI, é a metodologia de ensino em implantação na Fatec São José dos Campos, desde o Segundo Semestre de 2019, do qual os alunos formam equipes baseadas na metodologia scrum, tendo um aluno como master, Product Owner e os integrates restantes dev team. O time é desafiado por um cliente real (nesse projeto nosso cliente é a MidAll: Tecnologias), a desenvolver uma solução para um problema, tendo que atender requisitos exigidos de tecnologia. <br> 
+A API (Aprendizagem por Projetos Integrados), desenvolvida no escopo do CADI, é a metodologia de ensino em implantação na Fatec São José dos Campos, desde o Segundo Semestre de 2019, do qual os alunos formam equipes baseadas na metodologia Scrum, tendo um aluno como Scrum Master, Product Owner e os integrantes restantes formam o Dev Team. O time é desafiado por um cliente real a desenvolver uma solução para um problema, tendo que atender requisitos exigidos de tecnologia. <br> 
   
   O API segue tendo como pilares os seguintes valores: <br>
  - Real Problem Based Learning (rPBL) <br>
